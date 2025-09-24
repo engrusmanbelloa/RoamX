@@ -1,0 +1,35 @@
+roamx/
+├── docs/
+│   ├── 01_introduction/
+│   │   ├── overview.md            # Project vision, goals, and taglines
+│   │   └── problem_solution.md    # Problem statement and RoamX solution
+│   ├── 02_architecture/
+│   │   ├── tech_stack.md          # Detailed tech stack (Foundry, WireGuard, etc.)
+│   │   ├── system_design.md       # Diagrams and component breakdown
+│   │   └── network_model.md       # Global vs. nearby hotspot logic
+│   ├── 03_user_guide/
+│   │   ├── buyer_flow.md          # Step-by-step buyer UX (offline to settle)
+│   │   ├── host_flow.md           # Step-by-step host UX
+│   │   └── faq.md                 # Common questions (e.g., latency, fees)
+│   ├── 04_developer_guide/
+│   │   ├── setup.md               # Foundry installation and project setup
+│   │   ├── contract_structure.md  # Contract folder structure (as provided)
+│   │   ├── testing.md             # Testing with Forge (unit/integration)
+│   │   ├── deployment.md          # Deploying to Arbitrum testnet
+│   │   └── api_endpoints.md       # Relayer and app contract interactions
+│   ├── 05_tokenomics/
+│   │   ├── token_model.md         # $ROAM supply, staking, rewards
+│   │   └── economics.md           # Fee structure and DAO treasury
+│   ├── 06_roadmap/
+│   │   ├── milestones.md          # Q3 2025 to 2026 timeline
+│   │   └── risks_mitigations.md   # Legal, technical risks (e.g., OFAC)
+│   ├── 07_contributing/
+│   │   ├── guidelines.md          # Contribution process (PRs, issues)
+│   │   └── community.md           # X/Discord engagement
+│   ├── index.md                   # Table of contents and welcome
+│   └── changelog.md               # Version history (e.g., v1.0-MVP)
+├── contracts/                    # (As per previous structure)
+├── script/
+├── test/
+├── foundry.toml
+└── README.md                     # High-level overview (already drafted)
